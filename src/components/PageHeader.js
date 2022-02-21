@@ -7,7 +7,7 @@ const PageHeader = () => {
     <header className="main">
       <div className="headers">
         <h1>Theresa Summa</h1>
-        <h2>User Interface Engineeer</h2>
+        <h2>User Interface Engineer</h2>
       </div>
     </header>
   )

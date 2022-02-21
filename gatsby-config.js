@@ -9,7 +9,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          'rubik',
+          'Comfortaa',
           'Roboto Serif'
         ],
         display: 'swap'
