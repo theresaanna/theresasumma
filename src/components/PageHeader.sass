@@ -1,26 +1,27 @@
 .main
-  background-color: rgba(106, 73, 115, 0.8)
-  color: #D7C7D9
-  position: relative
-  display: table
+  background-color: #f7f7f7
+  color: #737373
   width: 100%
   text-align: center
 
-  .headers
-    display: table-cell
-    vertical-align: middle
+  .headers, .star-container
     padding: 5em 0
 
+  .star-container
+    .large-star
+      width: 10em
+      transform: rotate(45deg)
+
+  .headers
+    background-image: url('../images/gray-right-upper-corner-swirls.svg')
+    background-repeat: no-repeat
+    background-position: right
+
     h1
-      color: #fff
+      color: #8C8C8C
       font-family: "Comfortaa", sans-serif
       font-size: 3em
+      text-shadow: 0 1px #595959
 
     h2
       font-family: "Roboto Serif", serif
-
-  .large-star
-    width: 28em
-    position: absolute
-    top: 1em
-    z-index: -1
